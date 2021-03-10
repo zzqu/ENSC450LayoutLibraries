@@ -1,0 +1,16 @@
+\o Program:		@(#)$CDS: libManager.exe version 5.0.2 01/23/2007 12:28 (ocelot-linux.Cadence.COM) $
+\o Sub version:		sub-version 03.01-s042
+\o Arguments:		-mpssession icfb3672 -mpshost ensc-esil-18 
+\o Working Directory:	ensc-esil-18:/ensc/cmc_homedirs/escmc29/ensc450/CDS
+\o Extended color mode (TrueColor 32 0x44) in use.
+\o Library Manager customization server connected.
+MPS service: map window
+\o Log file is "/ensc/cmc_homedirs/escmc29/ensc450/CDS/libManager.log.4119".
+Opening libManager window.
+No main selection
+Invoking command (viewRefresh).
+MPS request: refresh library list
+Main selection: VerilogA_Lib
+Invoking command (viewRefresh).
+MPS request: refresh library list
+\o libManager is exiting.
