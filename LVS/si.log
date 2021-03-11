@@ -1,19 +1,17 @@
-*WARNING* '/ensc/cmc_homedirs/escmc29/ensc450/CDS/cds.lib', Line 17: lib name INVERTER-2 is not a legal lib name.
-*WARNING* '/ensc/cmc_homedirs/escmc29/ensc450/CDS/cds.lib', Line 17: Skipping: 'DEFINE' /ensc/cmc_homedirs/escmc29/ensc450/CDS/INVERTER-2
 
 Running simulation in directory: "/ensc/cmc_homedirs/escmc29/ensc450/CDS/LVS".
 
 
 
-Begin netlist:    Mar  9 21:13:10 2021
+Begin netlist:    Mar 11 00:02:00 2021
 	view name list	= ("auLvs" "extracted" "schematic")
 	stop name list	= ("auLvs")
-	library name	= "inverter"
-	cell name	= "inv"
+	library name	= "NOR"
+	cell name	= "nor"
 	view name	= "extracted"
 	globals lib	= "basic"
 Running Artist Flat Netlisting ...
-End netlist:    Mar  9 21:13:10 2021
+End netlist:    Mar 11 00:02:00 2021
 
 Moving original netlist to extNetlist
 Removing parasitic components from netlist
@@ -22,18 +20,18 @@ Removing parasitic components from netlist
 	pinductors removed:  0
 	pdiodes removed:     0
 	trans lines removed: 0
-	4 nodes merged into 4 nodes
+	7 nodes merged into 7 nodes
 
 
-Begin netlist:    Mar  9 21:13:10 2021
+Begin netlist:    Mar 11 00:02:00 2021
 	view name list	= ("auLvs" "schematic")
 	stop name list	= ("auLvs")
-	library name	= "inverter"
-	cell name	= "inv"
+	library name	= "NOR"
+	cell name	= "nor"
 	view name	= "schematic"
 	globals lib	= "basic"
 Running Artist Flat Netlisting ...
-End netlist:    Mar  9 21:13:10 2021
+End netlist:    Mar 11 00:02:00 2021
 
 Moving original netlist to extNetlist
 Removing parasitic components from netlist
@@ -42,10 +40,10 @@ Removing parasitic components from netlist
 	pinductors removed:  0
 	pdiodes removed:     0
 	trans lines removed: 0
-	5 nodes merged into 5 nodes
+	7 nodes merged into 7 nodes
 
 Running netlist comparison program:  LVS
-Begin comparison:    Mar  9 21:13:10 2021
+Begin comparison:    Mar 11 00:02:00 2021
 @(#)$CDS: LVS.exe version 5.1.0 06/20/2007 02:10 (cicln03) $
 
 The net-lists match.
@@ -56,22 +54,22 @@ The net-lists match.
 	rewired			0	0
 	size errors		0	0
 	pruned			0	0
-	active			2	2
-	total			2	2
+	active			4	4
+	total			4	4
 
 				  nets
 	un-matched		0	0
 	merged			0	0
 	pruned			0	0
-	active			4	4
-	total			4	4
+	active			6	6
+	total			6	6
 
 				terminals
 	un-matched		0	0
 	matched but
 	different type		0	0
-	total			4	4
-End comparison:      Mar  9 21:13:10 2021
+	total			5	5
+End comparison:      Mar 11 00:02:01 2021
 
 
 Comparison program completed successfully.

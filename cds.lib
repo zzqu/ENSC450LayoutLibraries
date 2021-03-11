@@ -13,10 +13,6 @@ DEFINE cmosp18_defin /Lnx_STC/kits/cmosp18/dfII_lib/cmosp18_defin_techlib
 DEFINE cmosp18fix3 /CMC/setups/CDS/cmosp18fix3
 DEFINE NAND /ensc/cmc_homedirs/escmc29/ensc450/CDS/NAND
 DEFINE inverter /ensc/cmc_homedirs/escmc29/ensc450/CDS/inverter
-DEFINE inv /ensc/cmc_homedirs/escmc29/ensc450/CDS/inv
-DEFINE INVERTER-2 /ensc/cmc_homedirs/escmc29/ensc450/CDS/INVERTER-2
-DEFINE inverterX1 /ensc/cmc_homedirs/escmc29/ensc450/CDS/inverterX1
 DEFINE NOR /ensc/cmc_homedirs/escmc29/ensc450/CDS/NOR
 DEFINE AND /ensc/cmc_homedirs/escmc29/ensc450/CDS/AND
-DEFINE inverter2 /ensc/cmc_homedirs/escmc29/ensc450/CDS/inverter2
 DEFINE inverterrr /ensc/cmc_homedirs/escmc29/ensc450/CDS/inverterrr
