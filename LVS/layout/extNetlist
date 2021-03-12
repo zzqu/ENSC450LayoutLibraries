@@ -1,28 +1,35 @@
 t 0 Z output
-t 1 VDD! inputOutput
-t 5 GND! inputOutput
-t 4 B input
-t 2 A input
+t 2 VDD! inputOutput
+t 6 GND! inputOutput
+t 5 B input
+t 3 A input
 
 n 0 /Z
-n 1 /VDD!
-n 2 /A
-n 3 /7
-n 4 /B
-n 5 /GND!
-n 6 /6
+n 1 /8
+n 2 /VDD!
+n 3 /A
+n 4 /7
+n 5 /B
+n 6 /GND!
+n 7 /6
 
-; pfet Instance /+3 = auLvs device Q0
+; pfet Instance /+5 = auLvs device Q0
 d pfet D G S B (p D S)
-i 0 pfet 1 2 6 1 " m 1.0 l 180e-9 w 2e-6 "
+i 0 pfet 2 5 7 2 " m 1.0 l 180e-9 w 1e-6 "
 
-; pfet Instance /+2 = auLvs device Q1
-i 1 pfet 6 4 0 1 " m 1.0 l 180e-9 w 2e-6 "
+; pfet Instance /+4 = auLvs device Q1
+i 1 pfet 7 3 2 2 " m 1.0 l 180e-9 w 1e-6 "
 
-; nfet Instance /+1 = auLvs device Q2
-d nfet D G S B (p D S)
-i 2 nfet 5 2 0 5 " m 1.0 l 180e-9 w 500e-9 "
+; pfet Instance /+3 = auLvs device Q2
+i 2 pfet 2 7 0 2 " m 1.0 l 180e-9 w 1e-6 "
 
 ; nfet Instance /+0 = auLvs device Q3
-i 3 nfet 0 4 5 5 " m 1.0 l 180e-9 w 500e-9 "
+d nfet D G S B (p D S)
+i 3 nfet 6 7 0 6 " m 1.0 l 180e-9 w 500e-9 "
+
+; nfet Instance /+2 = auLvs device Q4
+i 4 nfet 6 5 4 6 " m 1.0 l 180e-9 w 1e-6 "
+
+; nfet Instance /+1 = auLvs device Q5
+i 5 nfet 4 3 7 6 " m 1.0 l 180e-9 w 1e-6 "
 

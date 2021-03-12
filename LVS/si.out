@@ -5,17 +5,17 @@ Like matching is enabled.
 
     Net-list summary for /ensc/cmc_homedirs/escmc29/ensc450/CDS/LVS/layout/netlist
        count
-	6		nets
+	7		nets
 	5		terminals
-	2		nfet
-	2		pfet
+	3		nfet
+	3		pfet
 
     Net-list summary for /ensc/cmc_homedirs/escmc29/ensc450/CDS/LVS/schematic/netlist
        count
-	6		nets
+	7		nets
 	5		terminals
-	2		nfet
-	2		pfet
+	3		nfet
+	3		pfet
 
 Devices in the rules but not in the netlist:
         nfet_na 3Vnfet 3Vnfet_na 3Vpfet capacitor mimcap resistor cds_thru
@@ -28,15 +28,15 @@ The net-lists match.
 	rewired			0	0
 	size errors		0	0
 	pruned			0	0
-	active			4	4
-	total			4	4
+	active			6	6
+	total			6	6
 
 				  nets
 	un-matched		0	0
 	merged			0	0
 	pruned			0	0
-	active			6	6
-	total			6	6
+	active			7	7
+	total			7	7
 
 				terminals
 	un-matched		0	0

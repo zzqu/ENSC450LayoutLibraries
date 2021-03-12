@@ -1,0 +1,23 @@
+\o Program:		@(#)$CDS: libManager.exe version 5.0.2 01/23/2007 12:28 (ocelot-linux.Cadence.COM) $
+\o Sub version:		sub-version 03.01-s042
+\o Arguments:		-unmapped -mpssession icfb23308 -mpshost ensc-esil-18 
+\o Working Directory:	ensc-esil-18:/ensc/cmc_homedirs/escmc29/ensc450/CDS
+\o Extended color mode (TrueColor 32 0x44) in use.
+\o Library Manager customization server connected.
+MPS service: map window
+\o Log file is "/ensc/cmc_homedirs/escmc29/ensc450/CDS/libManager.log.23437".
+Opening libManager window.
+Main selection: NOR nor schematic
+\o Opening design file through session server.
+MPS request: edit design
+MPS request: update library list
+MPS request: update library list
+Main selection: NOR nor layout
+\o Opening design file through session server.
+MPS request: edit design
+Main selection: NOR nor extracted
+\o Opening design file through session server.
+MPS request: edit design
+MPS request: update library list
+MPS service: shutdown
+\o libManager is exiting.
