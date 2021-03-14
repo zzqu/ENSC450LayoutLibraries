@@ -1,2 +1,0 @@
-simulator( 'hspiceS )
-createFinalNetlist()
